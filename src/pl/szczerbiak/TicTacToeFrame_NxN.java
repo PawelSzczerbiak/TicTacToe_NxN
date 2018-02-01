@@ -71,8 +71,8 @@ public class TicTacToeFrame_NxN extends JFrame implements ActionListener {
             updateGridArray(-1); // decrement
         }
         counter++;
-        // Check whether there is a winner or draw
 
+        // Check whether there is a winner or draw
         if (isWinner() || isDraw()) {
             System.exit(0);
         }
